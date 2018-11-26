@@ -1,0 +1,4 @@
+/home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles/rebuild_cache.dir
+/home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles/edit_cache.dir
+/home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles/exception_test.dir
+/home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles/atomic_unittest.dir

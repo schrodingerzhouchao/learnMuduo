@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaos/learnMuduoGit/muduo/base/test/Atomic_unittest.cpp
+muduo/base/Atomic.h
+-
+cassert
+-
+iostream
+-
+
