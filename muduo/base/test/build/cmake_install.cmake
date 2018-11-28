@@ -1,4 +1,4 @@
-# Install script for directory: /home/chaos/learnMuduoGit/muduo/base/test
+# Install script for directory: /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chaos/learnMuduoGit/muduo/base/test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

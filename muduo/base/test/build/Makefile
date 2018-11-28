@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaos/learnMuduoGit/muduo/base/test
+CMAKE_SOURCE_DIR = /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaos/learnMuduoGit/muduo/base/test/build
+CMAKE_BINARY_DIR = /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles /home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests/build/CMakeFiles /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/learnMuduoGit/muduo/base/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/c13/learn_muduo/muduo/base/tests/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named thread_test
+
+# Build rule for target.
+thread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_test
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
 
 #=============================================================================
 # Target rules for targets named exception_test
@@ -190,6 +203,33 @@ Exception_test.cpp.s:
 	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/Exception_test.cpp.s
 .PHONY : Exception_test.cpp.s
 
+Thread_test.o: Thread_test.cpp.o
+
+.PHONY : Thread_test.o
+
+# target to build an object file
+Thread_test.cpp.o:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/Thread_test.cpp.o
+.PHONY : Thread_test.cpp.o
+
+Thread_test.i: Thread_test.cpp.i
+
+.PHONY : Thread_test.i
+
+# target to preprocess a source file
+Thread_test.cpp.i:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/Thread_test.cpp.i
+.PHONY : Thread_test.cpp.i
+
+Thread_test.s: Thread_test.cpp.s
+
+.PHONY : Thread_test.s
+
+# target to generate assembly for a file
+Thread_test.cpp.s:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/Thread_test.cpp.s
+.PHONY : Thread_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,6 +238,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... thread_test"
 	@echo "... exception_test"
 	@echo "... atomic_unittest"
 	@echo "... Atomic_unittest.o"
@@ -206,6 +247,9 @@ help:
 	@echo "... Exception_test.o"
 	@echo "... Exception_test.i"
 	@echo "... Exception_test.s"
+	@echo "... Thread_test.o"
+	@echo "... Thread_test.i"
+	@echo "... Thread_test.s"
 .PHONY : help
 
 
