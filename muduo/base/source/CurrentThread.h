@@ -15,7 +15,7 @@ void cacheTid();
 
 inline int tid()
 {
-    if (__builtin_expect(t_cachedTid == 0, 0))
+    if (__builtin_expect(t_cachedTid == 0, 0)) //   if (t_cachedTid == 0) (unlikely)
         cacheTid();
     return t_cachedTid;
 }

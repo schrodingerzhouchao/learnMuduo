@@ -35,7 +35,7 @@ public:
   {
       muduo::CurrentThread::t_threadName = "main";
       CurrentThread::tid();
-      ::pthread_atfork(nullptr, nullptr, &afterFork); //  ? just child? ==fork();exec();?
+      ::pthread_atfork(nullptr, nullptr, &afterFork); //  ? just child?   ==fork();exec();?
   }
 };
 

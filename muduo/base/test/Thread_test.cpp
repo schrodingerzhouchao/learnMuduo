@@ -1,9 +1,9 @@
 #include <muduo/base/Thread.h>
 #include <muduo/base/CurrentThread.h>
-
-#include <string>
+#include <muduo/base/Types.h>
 #include <boost/bind.hpp>
 #include <cstdio>
+#include <ctime>
 
 void threadFunc()
 {
@@ -34,6 +34,7 @@ private:
   double x_;
 };
 
+
 int main()
 {
     printf("pid=%d, tid=%d\n", ::getpid(), muduo::CurrentThread::tid());
@@ -56,6 +57,15 @@ int main()
     t4.join();
 
     printf("number of created threads %d\n", muduo::Thread::numCreated());
+
+    muduo::string st = muduo::CurrentThread::stackTrace(false);
+    if (fork() == 0)
+    {
+        threadFunc();
+    }
+    timespec ts = {2, 0};
+    nanosleep(&ts, nullptr);
+    printf("stack trace:\n%s\n", st.c_str());
 
     return 0;
 }

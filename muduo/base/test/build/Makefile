@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named mutex_test
+
+# Build rule for target.
+mutex_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutex_test
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+#=============================================================================
 # Target rules for targets named thread_test
 
 # Build rule for target.
@@ -203,6 +216,33 @@ Exception_test.cpp.s:
 	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/Exception_test.cpp.s
 .PHONY : Exception_test.cpp.s
 
+Mutex_test.o: Mutex_test.cpp.o
+
+.PHONY : Mutex_test.o
+
+# target to build an object file
+Mutex_test.cpp.o:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/Mutex_test.cpp.o
+.PHONY : Mutex_test.cpp.o
+
+Mutex_test.i: Mutex_test.cpp.i
+
+.PHONY : Mutex_test.i
+
+# target to preprocess a source file
+Mutex_test.cpp.i:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/Mutex_test.cpp.i
+.PHONY : Mutex_test.cpp.i
+
+Mutex_test.s: Mutex_test.cpp.s
+
+.PHONY : Mutex_test.s
+
+# target to generate assembly for a file
+Mutex_test.cpp.s:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/Mutex_test.cpp.s
+.PHONY : Mutex_test.cpp.s
+
 Thread_test.o: Thread_test.cpp.o
 
 .PHONY : Thread_test.o
@@ -238,6 +278,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... mutex_test"
 	@echo "... thread_test"
 	@echo "... exception_test"
 	@echo "... atomic_unittest"
@@ -247,6 +288,9 @@ help:
 	@echo "... Exception_test.o"
 	@echo "... Exception_test.i"
 	@echo "... Exception_test.s"
+	@echo "... Mutex_test.o"
+	@echo "... Mutex_test.i"
+	@echo "... Mutex_test.s"
 	@echo "... Thread_test.o"
 	@echo "... Thread_test.i"
 	@echo "... Thread_test.s"
