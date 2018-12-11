@@ -1,0 +1,14 @@
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/threadlocal_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/pthkey_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/singleton_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/pthonce_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/threadpool_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/boundedblockingqueue_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/atomic_unittest.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/exception_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/thread_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/rebuild_cache.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/blockingqueue_bench.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/edit_cache.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/mutex_test.dir
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles/blockingqueue_test.dir

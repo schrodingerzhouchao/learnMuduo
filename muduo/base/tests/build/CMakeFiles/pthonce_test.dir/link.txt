@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/pthonce_test.dir/pthonce_test.cpp.o  -o pthonce_test -lpthread 

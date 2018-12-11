@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/BlockingQueue_bench.cpp
+muduo/base/BlockingQueue.h
+-
+muduo/base/CountDownLatch.h
+-
+muduo/base/Thread.h
+-
+muduo/base/Timestamp.h
+-
+string
+-
+cstdio
+-
+map
+-
+boost/bind.hpp
+-
+boost/ptr_container/ptr_vector.hpp
+-
+

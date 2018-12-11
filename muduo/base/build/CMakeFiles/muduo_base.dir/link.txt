@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmuduo_base.a  CMakeFiles/muduo_base.dir/Timestamp.cpp.o CMakeFiles/muduo_base.dir/Exception.cpp.o CMakeFiles/muduo_base.dir/CurrentThread.cpp.o CMakeFiles/muduo_base.dir/Thread.cpp.o CMakeFiles/muduo_base.dir/Condition.cpp.o CMakeFiles/muduo_base.dir/CountDownLatch.cpp.o CMakeFiles/muduo_base.dir/ThreadPool.cpp.o
+/usr/bin/ranlib libmuduo_base.a

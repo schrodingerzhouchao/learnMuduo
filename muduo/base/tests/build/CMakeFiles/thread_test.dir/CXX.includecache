@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/Thread_test.cpp
+muduo/base/Thread.h
+-
+muduo/base/CurrentThread.h
+-
+muduo/base/Types.h
+-
+boost/bind.hpp
+-
+cstdio
+-
+ctime
+-
+
