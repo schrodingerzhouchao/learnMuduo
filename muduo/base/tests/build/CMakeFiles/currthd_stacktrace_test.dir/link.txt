@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/currthd_stacktrace_test.dir/currthd_stacktrace_test.cpp.o  -o currthd_stacktrace_test -lmuduo_base 

@@ -3,19 +3,23 @@
 
 #include <muduo/base/Atomic.h>
 #include <muduo/base/Types.h>
+#include <muduo/base/CountDownLatch.h>
 #include <muduo/base/noncopyable.h>
 
-#include <boost/function.hpp>
+#include <functional>
+#include <memory>
 
 #include <pthread.h>
 
 namespace muduo
 {
-class Thread:muduo::noncopyable
+
+class Thread : noncopyable
 {
 public:
-  typedef boost::function<void()> ThreadFunc;
-  explicit Thread(const ThreadFunc &, const string &name = string());
+  typedef std::function<void()> ThreadFunc;
+
+  explicit Thread(ThreadFunc &, const string &name = string());
   ~Thread();
 
   void start();
@@ -27,15 +31,19 @@ public:
   static int numCreated() { return numCreated_.get(); }
 
 private:
-  static void *startThread(void *thread);
-  void runInThread();
+  void setDefaultName();
 
   bool started_;
+  bool joined_;
   pthread_t pthreadId_;
   pid_t tid_;
   ThreadFunc func_;
   string name_;
+  CountDownLatch latch_;
+
   static AtomicInt32 numCreated_;
 };
+
 } // namespace muduo
+
 #endif

@@ -9,7 +9,8 @@
 
 namespace muduo
 {
-class MutexLock : muduo::noncopyable
+
+class MutexLock : noncopyable
 {
 public:
   MutexLock() : holder_(0)
@@ -45,7 +46,7 @@ public:
       pthread_mutex_unlock(&mutex_);
   }
 
-  pthread_mutex_t* getPthreadMutex()
+  pthread_mutex_t *getPthreadMutex()
   {
       return &mutex_;
   }
@@ -56,7 +57,7 @@ private:
 };
 
 
-class MutexLockGuard : muduo::noncopyable
+class MutexLockGuard : noncopyable
 {
 public:
   explicit MutexLockGuard(MutexLock &mutex) : mutex_(mutex)
@@ -70,10 +71,13 @@ public:
 
 private:
   MutexLock &mutex_;
+  // & role? just prevent value copy?
+  // returned temporary MutexLock?
 };
+
 } // namespace muduo
 
-
+// Prevent misuse like MutexLockGuard(mutex_);
 // A tempory object doesn't hold the lock for long
 #define MutexLockGuard(x)  "Missing guard object name"     //  
 

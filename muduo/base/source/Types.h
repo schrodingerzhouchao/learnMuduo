@@ -2,22 +2,20 @@
 #define MUDUO_BASE_TYPES_H
 
 #include <stdint.h>
-#ifdef MUDUO_STD_STRING
 #include <string>
-#else   //  ~MUDUO_STD_STRING
-#include <ext/vstring.h>
-#include <ext/vstring_fwd.h>
-#endif
+#include <cstring>
 
 //  The most commom stuffs.
 
 namespace muduo
 {
-#ifdef MUDUO_STD_STRING
-using std::string
-#else
-typedef __gnu_cxx::__sso_string string;
-#endif
+
+using std::string;
+
+inline void memZero(void *p, size_t n)
+{
+    memset(p, 0, n);
+}
 
 // Taken from google-protobuf stubs/common.h
 //
@@ -114,6 +112,6 @@ inline To down_cast(From* f)            // so we only accept pointers
     return static_cast<To>(f);
 }
 
-}
+}   // namespace muduo
 
-#endif
+#endif  // MUDUO_BASE_TYPES_H

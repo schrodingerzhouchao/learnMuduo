@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/log_test1.dir/Log_test1.cpp.o  -o log_test1 -lmuduo_base -lpthread 

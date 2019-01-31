@@ -250,6 +250,33 @@ CurrentThread.cpp.s:
 	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/CurrentThread.cpp.s
 .PHONY : CurrentThread.cpp.s
 
+Date.o: Date.cpp.o
+
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
 Exception.o: Exception.cpp.o
 
 .PHONY : Exception.o
@@ -331,6 +358,33 @@ ThreadPool.cpp.s:
 	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/ThreadPool.cpp.s
 .PHONY : ThreadPool.cpp.s
 
+TimeZone.o: TimeZone.cpp.o
+
+.PHONY : TimeZone.o
+
+# target to build an object file
+TimeZone.cpp.o:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/TimeZone.cpp.o
+.PHONY : TimeZone.cpp.o
+
+TimeZone.i: TimeZone.cpp.i
+
+.PHONY : TimeZone.i
+
+# target to preprocess a source file
+TimeZone.cpp.i:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/TimeZone.cpp.i
+.PHONY : TimeZone.cpp.i
+
+TimeZone.s: TimeZone.cpp.s
+
+.PHONY : TimeZone.s
+
+# target to generate assembly for a file
+TimeZone.cpp.s:
+	$(MAKE) -f CMakeFiles/muduo_base.dir/build.make CMakeFiles/muduo_base.dir/TimeZone.cpp.s
+.PHONY : TimeZone.cpp.s
+
 Timestamp.o: Timestamp.cpp.o
 
 .PHONY : Timestamp.o
@@ -380,6 +434,9 @@ help:
 	@echo "... CurrentThread.o"
 	@echo "... CurrentThread.i"
 	@echo "... CurrentThread.s"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
 	@echo "... Exception.o"
 	@echo "... Exception.i"
 	@echo "... Exception.s"
@@ -389,6 +446,9 @@ help:
 	@echo "... ThreadPool.o"
 	@echo "... ThreadPool.i"
 	@echo "... ThreadPool.s"
+	@echo "... TimeZone.o"
+	@echo "... TimeZone.i"
+	@echo "... TimeZone.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"

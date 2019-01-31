@@ -60,372 +60,150 @@ CMAKE_SOURCE_DIR = /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests
 CMAKE_BINARY_DIR = /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/threadlocal_test.dir
+# Target rules for target CMakeFiles/currthd_stacktrace_test.dir
 
 # All Build rule for target.
-CMakeFiles/threadlocal_test.dir/all:
-	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/depend
-	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=21,22 "Built target threadlocal_test"
-.PHONY : CMakeFiles/threadlocal_test.dir/all
+CMakeFiles/currthd_stacktrace_test.dir/all:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/depend
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=19,20 "Built target currthd_stacktrace_test"
+.PHONY : CMakeFiles/currthd_stacktrace_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/threadlocal_test.dir/all
+all: CMakeFiles/currthd_stacktrace_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/threadlocal_test.dir/rule: cmake_check_build_system
+CMakeFiles/currthd_stacktrace_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadlocal_test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/currthd_stacktrace_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/threadlocal_test.dir/rule
+.PHONY : CMakeFiles/currthd_stacktrace_test.dir/rule
 
 # Convenience name for target.
-threadlocal_test: CMakeFiles/threadlocal_test.dir/rule
+currthd_stacktrace_test: CMakeFiles/currthd_stacktrace_test.dir/rule
 
-.PHONY : threadlocal_test
-
-# clean rule for target.
-CMakeFiles/threadlocal_test.dir/clean:
-	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/clean
-.PHONY : CMakeFiles/threadlocal_test.dir/clean
+.PHONY : currthd_stacktrace_test
 
 # clean rule for target.
-clean: CMakeFiles/threadlocal_test.dir/clean
+CMakeFiles/currthd_stacktrace_test.dir/clean:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/clean
+.PHONY : CMakeFiles/currthd_stacktrace_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/currthd_stacktrace_test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pthkey_test.dir
+# Target rules for target CMakeFiles/backtrace_test.dir
 
 # All Build rule for target.
-CMakeFiles/pthkey_test.dir/all:
-	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/depend
-	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=13,14 "Built target pthkey_test"
-.PHONY : CMakeFiles/pthkey_test.dir/all
+CMakeFiles/backtrace_test.dir/all:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/depend
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=9,10 "Built target backtrace_test"
+.PHONY : CMakeFiles/backtrace_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/pthkey_test.dir/all
+all: CMakeFiles/backtrace_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pthkey_test.dir/rule: cmake_check_build_system
+CMakeFiles/backtrace_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthkey_test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/backtrace_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/pthkey_test.dir/rule
+.PHONY : CMakeFiles/backtrace_test.dir/rule
 
 # Convenience name for target.
-pthkey_test: CMakeFiles/pthkey_test.dir/rule
+backtrace_test: CMakeFiles/backtrace_test.dir/rule
 
-.PHONY : pthkey_test
-
-# clean rule for target.
-CMakeFiles/pthkey_test.dir/clean:
-	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/clean
-.PHONY : CMakeFiles/pthkey_test.dir/clean
+.PHONY : backtrace_test
 
 # clean rule for target.
-clean: CMakeFiles/pthkey_test.dir/clean
+CMakeFiles/backtrace_test.dir/clean:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/clean
+.PHONY : CMakeFiles/backtrace_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/backtrace_test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/singleton_test.dir
+# Target rules for target CMakeFiles/convert_order.dir
 
 # All Build rule for target.
-CMakeFiles/singleton_test.dir/all:
-	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/depend
-	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=17,18 "Built target singleton_test"
-.PHONY : CMakeFiles/singleton_test.dir/all
+CMakeFiles/convert_order.dir/all:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/depend
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=17,18 "Built target convert_order"
+.PHONY : CMakeFiles/convert_order.dir/all
 
 # Include target in all.
-all: CMakeFiles/singleton_test.dir/all
+all: CMakeFiles/convert_order.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/singleton_test.dir/rule: cmake_check_build_system
+CMakeFiles/convert_order.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/singleton_test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/convert_order.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/singleton_test.dir/rule
+.PHONY : CMakeFiles/convert_order.dir/rule
 
 # Convenience name for target.
-singleton_test: CMakeFiles/singleton_test.dir/rule
+convert_order: CMakeFiles/convert_order.dir/rule
 
-.PHONY : singleton_test
-
-# clean rule for target.
-CMakeFiles/singleton_test.dir/clean:
-	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/clean
-.PHONY : CMakeFiles/singleton_test.dir/clean
+.PHONY : convert_order
 
 # clean rule for target.
-clean: CMakeFiles/singleton_test.dir/clean
+CMakeFiles/convert_order.dir/clean:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/clean
+.PHONY : CMakeFiles/convert_order.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/convert_order.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pthonce_test.dir
+# Target rules for target CMakeFiles/threadlocalsingleton_test.dir
 
 # All Build rule for target.
-CMakeFiles/pthonce_test.dir/all:
-	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/depend
-	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=15,16 "Built target pthonce_test"
-.PHONY : CMakeFiles/pthonce_test.dir/all
+CMakeFiles/threadlocalsingleton_test.dir/all:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/depend
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=37,38 "Built target threadlocalsingleton_test"
+.PHONY : CMakeFiles/threadlocalsingleton_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/pthonce_test.dir/all
+all: CMakeFiles/threadlocalsingleton_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pthonce_test.dir/rule: cmake_check_build_system
+CMakeFiles/threadlocalsingleton_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthonce_test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadlocalsingleton_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/pthonce_test.dir/rule
+.PHONY : CMakeFiles/threadlocalsingleton_test.dir/rule
 
 # Convenience name for target.
-pthonce_test: CMakeFiles/pthonce_test.dir/rule
+threadlocalsingleton_test: CMakeFiles/threadlocalsingleton_test.dir/rule
 
-.PHONY : pthonce_test
-
-# clean rule for target.
-CMakeFiles/pthonce_test.dir/clean:
-	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/clean
-.PHONY : CMakeFiles/pthonce_test.dir/clean
+.PHONY : threadlocalsingleton_test
 
 # clean rule for target.
-clean: CMakeFiles/pthonce_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/threadpool_test.dir
-
-# All Build rule for target.
-CMakeFiles/threadpool_test.dir/all:
-	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/depend
-	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=23,24 "Built target threadpool_test"
-.PHONY : CMakeFiles/threadpool_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/threadpool_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/threadpool_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadpool_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/threadpool_test.dir/rule
-
-# Convenience name for target.
-threadpool_test: CMakeFiles/threadpool_test.dir/rule
-
-.PHONY : threadpool_test
+CMakeFiles/threadlocalsingleton_test.dir/clean:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/clean
+.PHONY : CMakeFiles/threadlocalsingleton_test.dir/clean
 
 # clean rule for target.
-CMakeFiles/threadpool_test.dir/clean:
-	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/clean
-.PHONY : CMakeFiles/threadpool_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/threadpool_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/boundedblockingqueue_test.dir
-
-# All Build rule for target.
-CMakeFiles/boundedblockingqueue_test.dir/all:
-	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/depend
-	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=7,8 "Built target boundedblockingqueue_test"
-.PHONY : CMakeFiles/boundedblockingqueue_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/boundedblockingqueue_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/boundedblockingqueue_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/boundedblockingqueue_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/boundedblockingqueue_test.dir/rule
-
-# Convenience name for target.
-boundedblockingqueue_test: CMakeFiles/boundedblockingqueue_test.dir/rule
-
-.PHONY : boundedblockingqueue_test
-
-# clean rule for target.
-CMakeFiles/boundedblockingqueue_test.dir/clean:
-	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/clean
-.PHONY : CMakeFiles/boundedblockingqueue_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/boundedblockingqueue_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/atomic_unittest.dir
-
-# All Build rule for target.
-CMakeFiles/atomic_unittest.dir/all:
-	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/depend
-	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=1,2 "Built target atomic_unittest"
-.PHONY : CMakeFiles/atomic_unittest.dir/all
-
-# Include target in all.
-all: CMakeFiles/atomic_unittest.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/atomic_unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/atomic_unittest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/atomic_unittest.dir/rule
-
-# Convenience name for target.
-atomic_unittest: CMakeFiles/atomic_unittest.dir/rule
-
-.PHONY : atomic_unittest
-
-# clean rule for target.
-CMakeFiles/atomic_unittest.dir/clean:
-	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/clean
-.PHONY : CMakeFiles/atomic_unittest.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/atomic_unittest.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/exception_test.dir
-
-# All Build rule for target.
-CMakeFiles/exception_test.dir/all:
-	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/depend
-	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=9,10 "Built target exception_test"
-.PHONY : CMakeFiles/exception_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/exception_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/exception_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exception_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/exception_test.dir/rule
-
-# Convenience name for target.
-exception_test: CMakeFiles/exception_test.dir/rule
-
-.PHONY : exception_test
-
-# clean rule for target.
-CMakeFiles/exception_test.dir/clean:
-	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/clean
-.PHONY : CMakeFiles/exception_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/exception_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/thread_test.dir
-
-# All Build rule for target.
-CMakeFiles/thread_test.dir/all:
-	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/depend
-	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=19,20 "Built target thread_test"
-.PHONY : CMakeFiles/thread_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/thread_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/thread_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thread_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/thread_test.dir/rule
-
-# Convenience name for target.
-thread_test: CMakeFiles/thread_test.dir/rule
-
-.PHONY : thread_test
-
-# clean rule for target.
-CMakeFiles/thread_test.dir/clean:
-	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/clean
-.PHONY : CMakeFiles/thread_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/thread_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/blockingqueue_bench.dir
-
-# All Build rule for target.
-CMakeFiles/blockingqueue_bench.dir/all:
-	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/depend
-	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=3,4 "Built target blockingqueue_bench"
-.PHONY : CMakeFiles/blockingqueue_bench.dir/all
-
-# Include target in all.
-all: CMakeFiles/blockingqueue_bench.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/blockingqueue_bench.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/blockingqueue_bench.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/blockingqueue_bench.dir/rule
-
-# Convenience name for target.
-blockingqueue_bench: CMakeFiles/blockingqueue_bench.dir/rule
-
-.PHONY : blockingqueue_bench
-
-# clean rule for target.
-CMakeFiles/blockingqueue_bench.dir/clean:
-	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/clean
-.PHONY : CMakeFiles/blockingqueue_bench.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/blockingqueue_bench.dir/clean
+clean: CMakeFiles/threadlocalsingleton_test.dir/clean
 
 .PHONY : clean
 
@@ -436,7 +214,7 @@ clean: CMakeFiles/blockingqueue_bench.dir/clean
 CMakeFiles/mutex_test.dir/all:
 	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/depend
 	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=11,12 "Built target mutex_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=25,26 "Built target mutex_test"
 .PHONY : CMakeFiles/mutex_test.dir/all
 
 # Include target in all.
@@ -467,13 +245,494 @@ clean: CMakeFiles/mutex_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Date_test.dir
+
+# All Build rule for target.
+CMakeFiles/Date_test.dir/all:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/depend
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=1,2 "Built target Date_test"
+.PHONY : CMakeFiles/Date_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Date_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Date_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Date_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/Date_test.dir/rule
+
+# Convenience name for target.
+Date_test: CMakeFiles/Date_test.dir/rule
+
+.PHONY : Date_test
+
+# clean rule for target.
+CMakeFiles/Date_test.dir/clean:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/clean
+.PHONY : CMakeFiles/Date_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Date_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/blockingqueue_bench.dir
+
+# All Build rule for target.
+CMakeFiles/blockingqueue_bench.dir/all:
+	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/depend
+	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=11,12 "Built target blockingqueue_bench"
+.PHONY : CMakeFiles/blockingqueue_bench.dir/all
+
+# Include target in all.
+all: CMakeFiles/blockingqueue_bench.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/blockingqueue_bench.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/blockingqueue_bench.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/blockingqueue_bench.dir/rule
+
+# Convenience name for target.
+blockingqueue_bench: CMakeFiles/blockingqueue_bench.dir/rule
+
+.PHONY : blockingqueue_bench
+
+# clean rule for target.
+CMakeFiles/blockingqueue_bench.dir/clean:
+	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/clean
+.PHONY : CMakeFiles/blockingqueue_bench.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/blockingqueue_bench.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/atomic_unittest.dir
+
+# All Build rule for target.
+CMakeFiles/atomic_unittest.dir/all:
+	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/depend
+	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=7,8 "Built target atomic_unittest"
+.PHONY : CMakeFiles/atomic_unittest.dir/all
+
+# Include target in all.
+all: CMakeFiles/atomic_unittest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/atomic_unittest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/atomic_unittest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/atomic_unittest.dir/rule
+
+# Convenience name for target.
+atomic_unittest: CMakeFiles/atomic_unittest.dir/rule
+
+.PHONY : atomic_unittest
+
+# clean rule for target.
+CMakeFiles/atomic_unittest.dir/clean:
+	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/clean
+.PHONY : CMakeFiles/atomic_unittest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/atomic_unittest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/boundedblockingqueue_test.dir
+
+# All Build rule for target.
+CMakeFiles/boundedblockingqueue_test.dir/all:
+	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/depend
+	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=15,16 "Built target boundedblockingqueue_test"
+.PHONY : CMakeFiles/boundedblockingqueue_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/boundedblockingqueue_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/boundedblockingqueue_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/boundedblockingqueue_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/boundedblockingqueue_test.dir/rule
+
+# Convenience name for target.
+boundedblockingqueue_test: CMakeFiles/boundedblockingqueue_test.dir/rule
+
+.PHONY : boundedblockingqueue_test
+
+# clean rule for target.
+CMakeFiles/boundedblockingqueue_test.dir/clean:
+	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/clean
+.PHONY : CMakeFiles/boundedblockingqueue_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/boundedblockingqueue_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exception_test.dir
+
+# All Build rule for target.
+CMakeFiles/exception_test.dir/all:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/depend
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=21,22 "Built target exception_test"
+.PHONY : CMakeFiles/exception_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/exception_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exception_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exception_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/exception_test.dir/rule
+
+# Convenience name for target.
+exception_test: CMakeFiles/exception_test.dir/rule
+
+.PHONY : exception_test
+
+# clean rule for target.
+CMakeFiles/exception_test.dir/clean:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/clean
+.PHONY : CMakeFiles/exception_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exception_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/log_test1.dir
+
+# All Build rule for target.
+CMakeFiles/log_test1.dir/all:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/depend
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=23,24 "Built target log_test1"
+.PHONY : CMakeFiles/log_test1.dir/all
+
+# Include target in all.
+all: CMakeFiles/log_test1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/log_test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/log_test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/log_test1.dir/rule
+
+# Convenience name for target.
+log_test1: CMakeFiles/log_test1.dir/rule
+
+.PHONY : log_test1
+
+# clean rule for target.
+CMakeFiles/log_test1.dir/clean:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/clean
+.PHONY : CMakeFiles/log_test1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/log_test1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TimeZone_unittest.dir
+
+# All Build rule for target.
+CMakeFiles/TimeZone_unittest.dir/all:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/depend
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=5,6 "Built target TimeZone_unittest"
+.PHONY : CMakeFiles/TimeZone_unittest.dir/all
+
+# Include target in all.
+all: CMakeFiles/TimeZone_unittest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TimeZone_unittest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TimeZone_unittest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/TimeZone_unittest.dir/rule
+
+# Convenience name for target.
+TimeZone_unittest: CMakeFiles/TimeZone_unittest.dir/rule
+
+.PHONY : TimeZone_unittest
+
+# clean rule for target.
+CMakeFiles/TimeZone_unittest.dir/clean:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/clean
+.PHONY : CMakeFiles/TimeZone_unittest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TimeZone_unittest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/threadpool_test.dir
+
+# All Build rule for target.
+CMakeFiles/threadpool_test.dir/all:
+	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/depend
+	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=39,40 "Built target threadpool_test"
+.PHONY : CMakeFiles/threadpool_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/threadpool_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/threadpool_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadpool_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/threadpool_test.dir/rule
+
+# Convenience name for target.
+threadpool_test: CMakeFiles/threadpool_test.dir/rule
+
+.PHONY : threadpool_test
+
+# clean rule for target.
+CMakeFiles/threadpool_test.dir/clean:
+	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/clean
+.PHONY : CMakeFiles/threadpool_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/threadpool_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pthonce_test.dir
+
+# All Build rule for target.
+CMakeFiles/pthonce_test.dir/all:
+	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/depend
+	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=29,30 "Built target pthonce_test"
+.PHONY : CMakeFiles/pthonce_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/pthonce_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pthonce_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthonce_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/pthonce_test.dir/rule
+
+# Convenience name for target.
+pthonce_test: CMakeFiles/pthonce_test.dir/rule
+
+.PHONY : pthonce_test
+
+# clean rule for target.
+CMakeFiles/pthonce_test.dir/clean:
+	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/clean
+.PHONY : CMakeFiles/pthonce_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pthonce_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PtrToBool.dir
+
+# All Build rule for target.
+CMakeFiles/PtrToBool.dir/all:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/depend
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=3,4 "Built target PtrToBool"
+.PHONY : CMakeFiles/PtrToBool.dir/all
+
+# Include target in all.
+all: CMakeFiles/PtrToBool.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PtrToBool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PtrToBool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/PtrToBool.dir/rule
+
+# Convenience name for target.
+PtrToBool: CMakeFiles/PtrToBool.dir/rule
+
+.PHONY : PtrToBool
+
+# clean rule for target.
+CMakeFiles/PtrToBool.dir/clean:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/clean
+.PHONY : CMakeFiles/PtrToBool.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PtrToBool.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/singleton_test.dir
+
+# All Build rule for target.
+CMakeFiles/singleton_test.dir/all:
+	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/depend
+	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=31,32 "Built target singleton_test"
+.PHONY : CMakeFiles/singleton_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/singleton_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/singleton_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/singleton_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/singleton_test.dir/rule
+
+# Convenience name for target.
+singleton_test: CMakeFiles/singleton_test.dir/rule
+
+.PHONY : singleton_test
+
+# clean rule for target.
+CMakeFiles/singleton_test.dir/clean:
+	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/clean
+.PHONY : CMakeFiles/singleton_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/singleton_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/thread_test.dir
+
+# All Build rule for target.
+CMakeFiles/thread_test.dir/all:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/depend
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=33,34 "Built target thread_test"
+.PHONY : CMakeFiles/thread_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/thread_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/thread_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thread_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/thread_test.dir/rule
+
+# Convenience name for target.
+thread_test: CMakeFiles/thread_test.dir/rule
+
+.PHONY : thread_test
+
+# clean rule for target.
+CMakeFiles/thread_test.dir/clean:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/clean
+.PHONY : CMakeFiles/thread_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/thread_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pthkey_test.dir
+
+# All Build rule for target.
+CMakeFiles/pthkey_test.dir/all:
+	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/depend
+	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=27,28 "Built target pthkey_test"
+.PHONY : CMakeFiles/pthkey_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/pthkey_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pthkey_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthkey_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/pthkey_test.dir/rule
+
+# Convenience name for target.
+pthkey_test: CMakeFiles/pthkey_test.dir/rule
+
+.PHONY : pthkey_test
+
+# clean rule for target.
+CMakeFiles/pthkey_test.dir/clean:
+	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/clean
+.PHONY : CMakeFiles/pthkey_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pthkey_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/blockingqueue_test.dir
 
 # All Build rule for target.
 CMakeFiles/blockingqueue_test.dir/all:
 	$(MAKE) -f CMakeFiles/blockingqueue_test.dir/build.make CMakeFiles/blockingqueue_test.dir/depend
 	$(MAKE) -f CMakeFiles/blockingqueue_test.dir/build.make CMakeFiles/blockingqueue_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=5,6 "Built target blockingqueue_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=13,14 "Built target blockingqueue_test"
 .PHONY : CMakeFiles/blockingqueue_test.dir/all
 
 # Include target in all.
@@ -500,6 +759,43 @@ CMakeFiles/blockingqueue_test.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/blockingqueue_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/threadlocal_test.dir
+
+# All Build rule for target.
+CMakeFiles/threadlocal_test.dir/all:
+	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/depend
+	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles --progress-num=35,36 "Built target threadlocal_test"
+.PHONY : CMakeFiles/threadlocal_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/threadlocal_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/threadlocal_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadlocal_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/threadlocal_test.dir/rule
+
+# Convenience name for target.
+threadlocal_test: CMakeFiles/threadlocal_test.dir/rule
+
+.PHONY : threadlocal_test
+
+# clean rule for target.
+CMakeFiles/threadlocal_test.dir/clean:
+	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/clean
+.PHONY : CMakeFiles/threadlocal_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/threadlocal_test.dir/clean
 
 .PHONY : clean
 

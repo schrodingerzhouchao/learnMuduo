@@ -1,3 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -rdynamic")
+message(STATUS,"CXXFLAGS: ${CMAKE_CXX_FLAGS}")
+
 add_executable(exception_test Exception_test.cpp)
 target_link_libraries(exception_test muduo_base)
 
@@ -35,4 +40,24 @@ target_link_libraries(pthkey_test pthread)
 add_executable(threadlocal_test ThreadLocal_test.cpp)
 target_link_libraries(threadlocal_test muduo_base pthread)
 
+add_executable(threadlocalsingleton_test ThreadLocalSingleton_test.cpp)
+target_link_libraries(threadlocalsingleton_test muduo_base pthread)
+
+add_executable(log_test1 Log_test1.cpp)
+target_link_libraries(log_test1 muduo_base pthread)
+
+add_executable(PtrToBool PtrToBool.cpp)
+
+add_executable(Date_test Date_test.cpp)
+target_link_libraries(Date_test muduo_base)
+
+add_executable(convert_order convert_order.cpp)
+
+add_executable(TimeZone_unittest TimeZone_unittest.cpp)
+target_link_libraries(TimeZone_unittest muduo_base)
+
+add_executable(backtrace_test backtrace_test.cpp)
+
+add_executable(currthd_stacktrace_test currthd_stacktrace_test.cpp)
+target_link_libraries(currthd_stacktrace_test muduo_base)
 

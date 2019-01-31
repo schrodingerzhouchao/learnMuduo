@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/thread_test.dir/Thread_test.cpp.o  -o thread_test -lmuduo_base -lpthread 
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/thread_test.dir/Thread_test.cpp.o  -o thread_test -lmuduo_base -lpthread 

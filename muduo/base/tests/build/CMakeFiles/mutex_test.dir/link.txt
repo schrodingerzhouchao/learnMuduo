@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/mutex_test.dir/Mutex_test.cpp.o  -o mutex_test -lmuduo_base -lpthread 
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/mutex_test.dir/Mutex_test.cpp.o  -o mutex_test -lmuduo_base -lpthread 

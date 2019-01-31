@@ -7,10 +7,12 @@
 
 namespace muduo
 {
+
 namespace detail
 {
-template<typename T>
-class AtomicIntegerT:noncopyable
+
+template <typename T>
+class AtomicIntegerT : noncopyable
 {
 public:
   AtomicIntegerT() : value_(0)
@@ -18,6 +20,16 @@ public:
   }
   T get()
   {
+    // like this:
+    // type __sync_val_compare_and_swap(ttype * ptr, type oldval, type newval)
+    // {
+    //   if (*ptr == oldval)
+    //   {
+    //     *ptr = newval;
+    //     return oldval;
+    //   }
+    // return *ptr;
+    // }
     return __sync_val_compare_and_swap(&value_, 0, 0);
   }
 
@@ -28,6 +40,7 @@ public:
 
   T addAndGet(T x)
   {
+    // return __sync_add_and_fetch()?
     return getAndAdd(x) + x;
   }
 
@@ -60,6 +73,7 @@ public:
 
 private:
   volatile T value_;
+
 };
 } // namespace detail
 

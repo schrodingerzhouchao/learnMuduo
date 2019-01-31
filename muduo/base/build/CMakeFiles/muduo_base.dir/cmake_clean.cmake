@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/muduo_base.dir/Condition.cpp.o"
   "CMakeFiles/muduo_base.dir/CountDownLatch.cpp.o"
   "CMakeFiles/muduo_base.dir/ThreadPool.cpp.o"
+  "CMakeFiles/muduo_base.dir/Date.cpp.o"
+  "CMakeFiles/muduo_base.dir/TimeZone.cpp.o"
   "libmuduo_base.pdb"
   "libmuduo_base.a"
 )

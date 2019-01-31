@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/net/tests/Reactor_test01.cpp
+muduo/net/EventLoop.h
+-
+cstdio
+-
+

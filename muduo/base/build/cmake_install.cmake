@@ -43,22 +43,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/base" TYPE FILE FILES
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Timestamp.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Atomic.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/BlockingQueue.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/BoundedBlockingQueue.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Condition.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/copyable.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/CountDownLatch.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/CurrentThread.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Date.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Exception.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Mutex.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Singleton.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Thread.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/ThreadLocal.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/ThreadPool.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Timestamp.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Types.h"
-    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/copyable.h"
     "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/noncopyable.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Thread.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/ThreadPool.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/TimeZone.h"
+    "/home/chaos/cppwork/muduo_learn/learnMuduo/muduo/base/source/Types.h"
     )
 endif()
 

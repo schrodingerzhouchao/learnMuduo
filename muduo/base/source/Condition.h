@@ -7,7 +7,7 @@
 
 namespace muduo
 {
-class Condition:muduo::noncopyable
+class Condition : noncopyable
 {
 public:
   explicit Condition(MutexLock &mutex) : mutex_(mutex)

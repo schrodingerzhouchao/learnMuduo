@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/exception_test.dir/Exception_test.cpp.o  -o exception_test -lmuduo_base 
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/exception_test.dir/Exception_test.cpp.o  -o exception_test -lmuduo_base 

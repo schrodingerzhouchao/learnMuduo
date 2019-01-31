@@ -111,134 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named threadlocal_test
+# Target rules for targets named currthd_stacktrace_test
 
 # Build rule for target.
-threadlocal_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 threadlocal_test
-.PHONY : threadlocal_test
+currthd_stacktrace_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 currthd_stacktrace_test
+.PHONY : currthd_stacktrace_test
 
 # fast build rule for target.
-threadlocal_test/fast:
-	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/build
-.PHONY : threadlocal_test/fast
+currthd_stacktrace_test/fast:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/build
+.PHONY : currthd_stacktrace_test/fast
 
 #=============================================================================
-# Target rules for targets named pthkey_test
+# Target rules for targets named backtrace_test
 
 # Build rule for target.
-pthkey_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthkey_test
-.PHONY : pthkey_test
+backtrace_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 backtrace_test
+.PHONY : backtrace_test
 
 # fast build rule for target.
-pthkey_test/fast:
-	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/build
-.PHONY : pthkey_test/fast
+backtrace_test/fast:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/build
+.PHONY : backtrace_test/fast
 
 #=============================================================================
-# Target rules for targets named singleton_test
+# Target rules for targets named convert_order
 
 # Build rule for target.
-singleton_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 singleton_test
-.PHONY : singleton_test
+convert_order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convert_order
+.PHONY : convert_order
 
 # fast build rule for target.
-singleton_test/fast:
-	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/build
-.PHONY : singleton_test/fast
+convert_order/fast:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/build
+.PHONY : convert_order/fast
 
 #=============================================================================
-# Target rules for targets named pthonce_test
+# Target rules for targets named threadlocalsingleton_test
 
 # Build rule for target.
-pthonce_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthonce_test
-.PHONY : pthonce_test
+threadlocalsingleton_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threadlocalsingleton_test
+.PHONY : threadlocalsingleton_test
 
 # fast build rule for target.
-pthonce_test/fast:
-	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/build
-.PHONY : pthonce_test/fast
-
-#=============================================================================
-# Target rules for targets named threadpool_test
-
-# Build rule for target.
-threadpool_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 threadpool_test
-.PHONY : threadpool_test
-
-# fast build rule for target.
-threadpool_test/fast:
-	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/build
-.PHONY : threadpool_test/fast
-
-#=============================================================================
-# Target rules for targets named boundedblockingqueue_test
-
-# Build rule for target.
-boundedblockingqueue_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 boundedblockingqueue_test
-.PHONY : boundedblockingqueue_test
-
-# fast build rule for target.
-boundedblockingqueue_test/fast:
-	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/build
-.PHONY : boundedblockingqueue_test/fast
-
-#=============================================================================
-# Target rules for targets named atomic_unittest
-
-# Build rule for target.
-atomic_unittest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atomic_unittest
-.PHONY : atomic_unittest
-
-# fast build rule for target.
-atomic_unittest/fast:
-	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/build
-.PHONY : atomic_unittest/fast
-
-#=============================================================================
-# Target rules for targets named exception_test
-
-# Build rule for target.
-exception_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 exception_test
-.PHONY : exception_test
-
-# fast build rule for target.
-exception_test/fast:
-	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/build
-.PHONY : exception_test/fast
-
-#=============================================================================
-# Target rules for targets named thread_test
-
-# Build rule for target.
-thread_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread_test
-.PHONY : thread_test
-
-# fast build rule for target.
-thread_test/fast:
-	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
-.PHONY : thread_test/fast
-
-#=============================================================================
-# Target rules for targets named blockingqueue_bench
-
-# Build rule for target.
-blockingqueue_bench: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 blockingqueue_bench
-.PHONY : blockingqueue_bench
-
-# fast build rule for target.
-blockingqueue_bench/fast:
-	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/build
-.PHONY : blockingqueue_bench/fast
+threadlocalsingleton_test/fast:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/build
+.PHONY : threadlocalsingleton_test/fast
 
 #=============================================================================
 # Target rules for targets named mutex_test
@@ -254,6 +176,175 @@ mutex_test/fast:
 .PHONY : mutex_test/fast
 
 #=============================================================================
+# Target rules for targets named Date_test
+
+# Build rule for target.
+Date_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Date_test
+.PHONY : Date_test
+
+# fast build rule for target.
+Date_test/fast:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/build
+.PHONY : Date_test/fast
+
+#=============================================================================
+# Target rules for targets named blockingqueue_bench
+
+# Build rule for target.
+blockingqueue_bench: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 blockingqueue_bench
+.PHONY : blockingqueue_bench
+
+# fast build rule for target.
+blockingqueue_bench/fast:
+	$(MAKE) -f CMakeFiles/blockingqueue_bench.dir/build.make CMakeFiles/blockingqueue_bench.dir/build
+.PHONY : blockingqueue_bench/fast
+
+#=============================================================================
+# Target rules for targets named atomic_unittest
+
+# Build rule for target.
+atomic_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic_unittest
+.PHONY : atomic_unittest
+
+# fast build rule for target.
+atomic_unittest/fast:
+	$(MAKE) -f CMakeFiles/atomic_unittest.dir/build.make CMakeFiles/atomic_unittest.dir/build
+.PHONY : atomic_unittest/fast
+
+#=============================================================================
+# Target rules for targets named boundedblockingqueue_test
+
+# Build rule for target.
+boundedblockingqueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boundedblockingqueue_test
+.PHONY : boundedblockingqueue_test
+
+# fast build rule for target.
+boundedblockingqueue_test/fast:
+	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/build
+.PHONY : boundedblockingqueue_test/fast
+
+#=============================================================================
+# Target rules for targets named exception_test
+
+# Build rule for target.
+exception_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exception_test
+.PHONY : exception_test
+
+# fast build rule for target.
+exception_test/fast:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/build
+.PHONY : exception_test/fast
+
+#=============================================================================
+# Target rules for targets named log_test1
+
+# Build rule for target.
+log_test1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log_test1
+.PHONY : log_test1
+
+# fast build rule for target.
+log_test1/fast:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/build
+.PHONY : log_test1/fast
+
+#=============================================================================
+# Target rules for targets named TimeZone_unittest
+
+# Build rule for target.
+TimeZone_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TimeZone_unittest
+.PHONY : TimeZone_unittest
+
+# fast build rule for target.
+TimeZone_unittest/fast:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/build
+.PHONY : TimeZone_unittest/fast
+
+#=============================================================================
+# Target rules for targets named threadpool_test
+
+# Build rule for target.
+threadpool_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threadpool_test
+.PHONY : threadpool_test
+
+# fast build rule for target.
+threadpool_test/fast:
+	$(MAKE) -f CMakeFiles/threadpool_test.dir/build.make CMakeFiles/threadpool_test.dir/build
+.PHONY : threadpool_test/fast
+
+#=============================================================================
+# Target rules for targets named pthonce_test
+
+# Build rule for target.
+pthonce_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthonce_test
+.PHONY : pthonce_test
+
+# fast build rule for target.
+pthonce_test/fast:
+	$(MAKE) -f CMakeFiles/pthonce_test.dir/build.make CMakeFiles/pthonce_test.dir/build
+.PHONY : pthonce_test/fast
+
+#=============================================================================
+# Target rules for targets named PtrToBool
+
+# Build rule for target.
+PtrToBool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PtrToBool
+.PHONY : PtrToBool
+
+# fast build rule for target.
+PtrToBool/fast:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/build
+.PHONY : PtrToBool/fast
+
+#=============================================================================
+# Target rules for targets named singleton_test
+
+# Build rule for target.
+singleton_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton_test
+.PHONY : singleton_test
+
+# fast build rule for target.
+singleton_test/fast:
+	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/build
+.PHONY : singleton_test/fast
+
+#=============================================================================
+# Target rules for targets named thread_test
+
+# Build rule for target.
+thread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_test
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
+
+#=============================================================================
+# Target rules for targets named pthkey_test
+
+# Build rule for target.
+pthkey_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthkey_test
+.PHONY : pthkey_test
+
+# fast build rule for target.
+pthkey_test/fast:
+	$(MAKE) -f CMakeFiles/pthkey_test.dir/build.make CMakeFiles/pthkey_test.dir/build
+.PHONY : pthkey_test/fast
+
+#=============================================================================
 # Target rules for targets named blockingqueue_test
 
 # Build rule for target.
@@ -265,6 +356,19 @@ blockingqueue_test: cmake_check_build_system
 blockingqueue_test/fast:
 	$(MAKE) -f CMakeFiles/blockingqueue_test.dir/build.make CMakeFiles/blockingqueue_test.dir/build
 .PHONY : blockingqueue_test/fast
+
+#=============================================================================
+# Target rules for targets named threadlocal_test
+
+# Build rule for target.
+threadlocal_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threadlocal_test
+.PHONY : threadlocal_test
+
+# fast build rule for target.
+threadlocal_test/fast:
+	$(MAKE) -f CMakeFiles/threadlocal_test.dir/build.make CMakeFiles/threadlocal_test.dir/build
+.PHONY : threadlocal_test/fast
 
 Atomic_unittest.o: Atomic_unittest.cpp.o
 
@@ -374,6 +478,33 @@ BoundedBlockingQueue_test.cpp.s:
 	$(MAKE) -f CMakeFiles/boundedblockingqueue_test.dir/build.make CMakeFiles/boundedblockingqueue_test.dir/BoundedBlockingQueue_test.cpp.s
 .PHONY : BoundedBlockingQueue_test.cpp.s
 
+Date_test.o: Date_test.cpp.o
+
+.PHONY : Date_test.o
+
+# target to build an object file
+Date_test.cpp.o:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/Date_test.cpp.o
+.PHONY : Date_test.cpp.o
+
+Date_test.i: Date_test.cpp.i
+
+.PHONY : Date_test.i
+
+# target to preprocess a source file
+Date_test.cpp.i:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/Date_test.cpp.i
+.PHONY : Date_test.cpp.i
+
+Date_test.s: Date_test.cpp.s
+
+.PHONY : Date_test.s
+
+# target to generate assembly for a file
+Date_test.cpp.s:
+	$(MAKE) -f CMakeFiles/Date_test.dir/build.make CMakeFiles/Date_test.dir/Date_test.cpp.s
+.PHONY : Date_test.cpp.s
+
 Exception_test.o: Exception_test.cpp.o
 
 .PHONY : Exception_test.o
@@ -400,6 +531,33 @@ Exception_test.s: Exception_test.cpp.s
 Exception_test.cpp.s:
 	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/Exception_test.cpp.s
 .PHONY : Exception_test.cpp.s
+
+Log_test1.o: Log_test1.cpp.o
+
+.PHONY : Log_test1.o
+
+# target to build an object file
+Log_test1.cpp.o:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/Log_test1.cpp.o
+.PHONY : Log_test1.cpp.o
+
+Log_test1.i: Log_test1.cpp.i
+
+.PHONY : Log_test1.i
+
+# target to preprocess a source file
+Log_test1.cpp.i:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/Log_test1.cpp.i
+.PHONY : Log_test1.cpp.i
+
+Log_test1.s: Log_test1.cpp.s
+
+.PHONY : Log_test1.s
+
+# target to generate assembly for a file
+Log_test1.cpp.s:
+	$(MAKE) -f CMakeFiles/log_test1.dir/build.make CMakeFiles/log_test1.dir/Log_test1.cpp.s
+.PHONY : Log_test1.cpp.s
 
 Mutex_test.o: Mutex_test.cpp.o
 
@@ -428,6 +586,33 @@ Mutex_test.cpp.s:
 	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/Mutex_test.cpp.s
 .PHONY : Mutex_test.cpp.s
 
+PtrToBool.o: PtrToBool.cpp.o
+
+.PHONY : PtrToBool.o
+
+# target to build an object file
+PtrToBool.cpp.o:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/PtrToBool.cpp.o
+.PHONY : PtrToBool.cpp.o
+
+PtrToBool.i: PtrToBool.cpp.i
+
+.PHONY : PtrToBool.i
+
+# target to preprocess a source file
+PtrToBool.cpp.i:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/PtrToBool.cpp.i
+.PHONY : PtrToBool.cpp.i
+
+PtrToBool.s: PtrToBool.cpp.s
+
+.PHONY : PtrToBool.s
+
+# target to generate assembly for a file
+PtrToBool.cpp.s:
+	$(MAKE) -f CMakeFiles/PtrToBool.dir/build.make CMakeFiles/PtrToBool.dir/PtrToBool.cpp.s
+.PHONY : PtrToBool.cpp.s
+
 Singleton_test.o: Singleton_test.cpp.o
 
 .PHONY : Singleton_test.o
@@ -454,6 +639,33 @@ Singleton_test.s: Singleton_test.cpp.s
 Singleton_test.cpp.s:
 	$(MAKE) -f CMakeFiles/singleton_test.dir/build.make CMakeFiles/singleton_test.dir/Singleton_test.cpp.s
 .PHONY : Singleton_test.cpp.s
+
+ThreadLocalSingleton_test.o: ThreadLocalSingleton_test.cpp.o
+
+.PHONY : ThreadLocalSingleton_test.o
+
+# target to build an object file
+ThreadLocalSingleton_test.cpp.o:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/ThreadLocalSingleton_test.cpp.o
+.PHONY : ThreadLocalSingleton_test.cpp.o
+
+ThreadLocalSingleton_test.i: ThreadLocalSingleton_test.cpp.i
+
+.PHONY : ThreadLocalSingleton_test.i
+
+# target to preprocess a source file
+ThreadLocalSingleton_test.cpp.i:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/ThreadLocalSingleton_test.cpp.i
+.PHONY : ThreadLocalSingleton_test.cpp.i
+
+ThreadLocalSingleton_test.s: ThreadLocalSingleton_test.cpp.s
+
+.PHONY : ThreadLocalSingleton_test.s
+
+# target to generate assembly for a file
+ThreadLocalSingleton_test.cpp.s:
+	$(MAKE) -f CMakeFiles/threadlocalsingleton_test.dir/build.make CMakeFiles/threadlocalsingleton_test.dir/ThreadLocalSingleton_test.cpp.s
+.PHONY : ThreadLocalSingleton_test.cpp.s
 
 ThreadLocal_test.o: ThreadLocal_test.cpp.o
 
@@ -536,6 +748,114 @@ Thread_test.cpp.s:
 	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/Thread_test.cpp.s
 .PHONY : Thread_test.cpp.s
 
+TimeZone_unittest.o: TimeZone_unittest.cpp.o
+
+.PHONY : TimeZone_unittest.o
+
+# target to build an object file
+TimeZone_unittest.cpp.o:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/TimeZone_unittest.cpp.o
+.PHONY : TimeZone_unittest.cpp.o
+
+TimeZone_unittest.i: TimeZone_unittest.cpp.i
+
+.PHONY : TimeZone_unittest.i
+
+# target to preprocess a source file
+TimeZone_unittest.cpp.i:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/TimeZone_unittest.cpp.i
+.PHONY : TimeZone_unittest.cpp.i
+
+TimeZone_unittest.s: TimeZone_unittest.cpp.s
+
+.PHONY : TimeZone_unittest.s
+
+# target to generate assembly for a file
+TimeZone_unittest.cpp.s:
+	$(MAKE) -f CMakeFiles/TimeZone_unittest.dir/build.make CMakeFiles/TimeZone_unittest.dir/TimeZone_unittest.cpp.s
+.PHONY : TimeZone_unittest.cpp.s
+
+backtrace_test.o: backtrace_test.cpp.o
+
+.PHONY : backtrace_test.o
+
+# target to build an object file
+backtrace_test.cpp.o:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/backtrace_test.cpp.o
+.PHONY : backtrace_test.cpp.o
+
+backtrace_test.i: backtrace_test.cpp.i
+
+.PHONY : backtrace_test.i
+
+# target to preprocess a source file
+backtrace_test.cpp.i:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/backtrace_test.cpp.i
+.PHONY : backtrace_test.cpp.i
+
+backtrace_test.s: backtrace_test.cpp.s
+
+.PHONY : backtrace_test.s
+
+# target to generate assembly for a file
+backtrace_test.cpp.s:
+	$(MAKE) -f CMakeFiles/backtrace_test.dir/build.make CMakeFiles/backtrace_test.dir/backtrace_test.cpp.s
+.PHONY : backtrace_test.cpp.s
+
+convert_order.o: convert_order.cpp.o
+
+.PHONY : convert_order.o
+
+# target to build an object file
+convert_order.cpp.o:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/convert_order.cpp.o
+.PHONY : convert_order.cpp.o
+
+convert_order.i: convert_order.cpp.i
+
+.PHONY : convert_order.i
+
+# target to preprocess a source file
+convert_order.cpp.i:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/convert_order.cpp.i
+.PHONY : convert_order.cpp.i
+
+convert_order.s: convert_order.cpp.s
+
+.PHONY : convert_order.s
+
+# target to generate assembly for a file
+convert_order.cpp.s:
+	$(MAKE) -f CMakeFiles/convert_order.dir/build.make CMakeFiles/convert_order.dir/convert_order.cpp.s
+.PHONY : convert_order.cpp.s
+
+currthd_stacktrace_test.o: currthd_stacktrace_test.cpp.o
+
+.PHONY : currthd_stacktrace_test.o
+
+# target to build an object file
+currthd_stacktrace_test.cpp.o:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/currthd_stacktrace_test.cpp.o
+.PHONY : currthd_stacktrace_test.cpp.o
+
+currthd_stacktrace_test.i: currthd_stacktrace_test.cpp.i
+
+.PHONY : currthd_stacktrace_test.i
+
+# target to preprocess a source file
+currthd_stacktrace_test.cpp.i:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/currthd_stacktrace_test.cpp.i
+.PHONY : currthd_stacktrace_test.cpp.i
+
+currthd_stacktrace_test.s: currthd_stacktrace_test.cpp.s
+
+.PHONY : currthd_stacktrace_test.s
+
+# target to generate assembly for a file
+currthd_stacktrace_test.cpp.s:
+	$(MAKE) -f CMakeFiles/currthd_stacktrace_test.dir/build.make CMakeFiles/currthd_stacktrace_test.dir/currthd_stacktrace_test.cpp.s
+.PHONY : currthd_stacktrace_test.cpp.s
+
 pthkey_test.o: pthkey_test.cpp.o
 
 .PHONY : pthkey_test.o
@@ -596,20 +916,28 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... threadlocal_test"
-	@echo "... pthkey_test"
-	@echo "... singleton_test"
-	@echo "... pthonce_test"
-	@echo "... threadpool_test"
-	@echo "... boundedblockingqueue_test"
-	@echo "... atomic_unittest"
-	@echo "... exception_test"
-	@echo "... thread_test"
 	@echo "... rebuild_cache"
-	@echo "... blockingqueue_bench"
 	@echo "... edit_cache"
+	@echo "... currthd_stacktrace_test"
+	@echo "... backtrace_test"
+	@echo "... convert_order"
+	@echo "... threadlocalsingleton_test"
 	@echo "... mutex_test"
+	@echo "... Date_test"
+	@echo "... blockingqueue_bench"
+	@echo "... atomic_unittest"
+	@echo "... boundedblockingqueue_test"
+	@echo "... exception_test"
+	@echo "... log_test1"
+	@echo "... TimeZone_unittest"
+	@echo "... threadpool_test"
+	@echo "... pthonce_test"
+	@echo "... PtrToBool"
+	@echo "... singleton_test"
+	@echo "... thread_test"
+	@echo "... pthkey_test"
 	@echo "... blockingqueue_test"
+	@echo "... threadlocal_test"
 	@echo "... Atomic_unittest.o"
 	@echo "... Atomic_unittest.i"
 	@echo "... Atomic_unittest.s"
@@ -622,15 +950,27 @@ help:
 	@echo "... BoundedBlockingQueue_test.o"
 	@echo "... BoundedBlockingQueue_test.i"
 	@echo "... BoundedBlockingQueue_test.s"
+	@echo "... Date_test.o"
+	@echo "... Date_test.i"
+	@echo "... Date_test.s"
 	@echo "... Exception_test.o"
 	@echo "... Exception_test.i"
 	@echo "... Exception_test.s"
+	@echo "... Log_test1.o"
+	@echo "... Log_test1.i"
+	@echo "... Log_test1.s"
 	@echo "... Mutex_test.o"
 	@echo "... Mutex_test.i"
 	@echo "... Mutex_test.s"
+	@echo "... PtrToBool.o"
+	@echo "... PtrToBool.i"
+	@echo "... PtrToBool.s"
 	@echo "... Singleton_test.o"
 	@echo "... Singleton_test.i"
 	@echo "... Singleton_test.s"
+	@echo "... ThreadLocalSingleton_test.o"
+	@echo "... ThreadLocalSingleton_test.i"
+	@echo "... ThreadLocalSingleton_test.s"
 	@echo "... ThreadLocal_test.o"
 	@echo "... ThreadLocal_test.i"
 	@echo "... ThreadLocal_test.s"
@@ -640,6 +980,18 @@ help:
 	@echo "... Thread_test.o"
 	@echo "... Thread_test.i"
 	@echo "... Thread_test.s"
+	@echo "... TimeZone_unittest.o"
+	@echo "... TimeZone_unittest.i"
+	@echo "... TimeZone_unittest.s"
+	@echo "... backtrace_test.o"
+	@echo "... backtrace_test.i"
+	@echo "... backtrace_test.s"
+	@echo "... convert_order.o"
+	@echo "... convert_order.i"
+	@echo "... convert_order.s"
+	@echo "... currthd_stacktrace_test.o"
+	@echo "... currthd_stacktrace_test.i"
+	@echo "... currthd_stacktrace_test.s"
 	@echo "... pthkey_test.o"
 	@echo "... pthkey_test.i"
 	@echo "... pthkey_test.s"

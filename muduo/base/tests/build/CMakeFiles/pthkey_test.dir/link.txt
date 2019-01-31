@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/pthkey_test.dir/pthkey_test.cpp.o  -o pthkey_test -lpthread 
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/pthkey_test.dir/pthkey_test.cpp.o  -o pthkey_test -lpthread 

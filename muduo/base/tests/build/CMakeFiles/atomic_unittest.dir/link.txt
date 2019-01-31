@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/atomic_unittest.dir/Atomic_unittest.cpp.o  -o atomic_unittest -lmuduo_base 
+/usr/bin/c++   -g -Wall -rdynamic   CMakeFiles/atomic_unittest.dir/Atomic_unittest.cpp.o  -o atomic_unittest -lmuduo_base 
